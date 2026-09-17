@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "my-privacy-agent": {
+      "type": "http",
+      "url": "https://myprivacyagent.com/api/mcp",
+      "headers": {
+        "x-mpa-client": "grok-plugin"
+      },
+      "note": "My Privacy Agent public MCP server (Streamable HTTP). No account, key, or sign-in. The five tools are read-only and return only information already published on myprivacyagent.com: verified opt-out guides, the documented removal route for 950+ people-search and data-broker sites, and privacy library search. They never look a person up. Account tools (your own report and case status) are not part of this version; the person runs their private check on the website."
+    }
+  }
+}
